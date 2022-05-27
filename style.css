@@ -1,8 +1,35 @@
 html, body {
     margin: 0;
     height: 100%;
+    background-color: #102839;
   }
-  
+  h1{
+    color: #295277;
+    font-weight: bold;
+    font-size: 70px;
+  }
+  p{
+    color: #fff;
+  }
+  p span{
+    background-color: #cb3300;
+  }
+  .parte{
+    padding-left: 15px;
+  }
+  .parte p{
+    color: #9fa9b0;
+    margin-top: -60px;
+  }
+  .despierta p{
+    margin-top: -38px;
+  }
+  .despierta3{
+margin-top: -5px;
+  }
+  .despierta3 p{
+    margin-top: -26px;
+      }
   * {
     font-family: "Raleway";
     box-sizing: border-box;
@@ -125,4 +152,10 @@ html, body {
   }
   .text-center{
     text-align: center;
+    padding: 0 30%;
+  }
+  h2 span{
+    color: #fff;
+    font-size: 9rem;
+    background: #cb3300;
   }
