@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Gobold Bold';
+  src: url('fonts/Gobold-Bold.eot');
+  src: url('fonts/Gobold-Bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Gobold-Bold.woff2') format('woff2'),
+       url('fonts/Gobold-Bold.woff') format('woff'),
+       url('fonts/Gobold-Bold.ttf')  format('truetype'),
+       url('fonts/Gobold-Bold.svg#Gobold Bold') format('svg');
+}
 html, body {
     margin: 0;
     height: 100%;
@@ -7,6 +16,7 @@ html, body {
     color: #295277;
     font-weight: bold;
     font-size: 70px;
+    font-family: 'Gobold Bold';
   }
   p{
     color: #fff;
@@ -159,4 +169,5 @@ margin-top: -5px;
     color: #fff;
     font-size: 9rem;
     background: #cb3300;
+    font-family: 'Gobold Bold';
   }
